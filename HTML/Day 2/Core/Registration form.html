@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<body >
+    <h1>Registration form</h1>
+    <div>
+        <label>First Name: *</label>
+        <input type="text" name="Firstname" >
+    </div>
+    <div>
+        <label>Last Name: *</label>
+        <input type="text" name="Lastname" >
+    </div>
+    <div>
+        <label>Email Adress: * </label>
+        <input type="text" name="Email" >
+    </div>
+    <div>
+        <label>Password: *</label>
+        <input type="password" name="password" >
+    </div>
+    <div>
+        <label>Confirm Password: *</label>
+        <input type="password" name="Confirm password" >
+    </div>
+    <div>
+        Birthday:
+        <input type="date" name="dob">
+    </div>
+    <div>
+
+        Gender Identity
+        <br>
+        <input type="radio" name="gender" >
+        <label>Male</label>
+        <input type="radio" name="gender" value>
+        <label>Women</label>
+        <input type="radio" name="gender">
+        <label>Non-binary</label>
+        <input type="radio" name="gender" >
+        <label>I prefer not to answer</label>
+    </div>
+    <div>
+        A short description about myself:
+        <br>
+        <textarea name="comment" cols="20" rows="3"></textarea>
+    </div>
+    <div>
+        favorite language:
+        <select name="language">
+            <option value="language">Javascript</option>
+            <option value="language">HTML</option>
+            <option value="language">CSS</option>
+        </select>
+    </div>
+    <div>
+        <input type="checkbox" name="accept" >
+        <label>Yes, I would like to receive periodic email updates</label>
+    </div>
+        <input type="submit" value="Create Account">
+    <div> * Indicates a required field </div>
+</body>
+</html>
