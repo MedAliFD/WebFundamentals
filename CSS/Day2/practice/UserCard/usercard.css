@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 80%;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.header{
+    background-color: rgb(54, 150, 150);
+    display: block;
+    height: 120px;
+}
+.profile-img{
+    height: 120px;
+    position: relative;
+    top: 60px; /* position image from top */
+    left: 30px; /* position image from left side  */
+    border-radius: 50%;
+    outline: auto; /* to show border */
+}
+.content{
+    margin-top: 70px; /* image radius + 20px */
+    padding-left: 30px;
+}
+.location{
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    gap: 10px;
+    padding: 5px 0;
+}
+
+.title{
+    padding: 5px 0;
+    font-size: large;
+}
+.options{
+    padding: 5px 0  ;
+    display: flex;
+    gap: 10px;
+}
+.icon{
+    height: 20px ;
+}
