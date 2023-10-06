@@ -1,0 +1,26 @@
+/* overall styles */
+*{
+    color: white;
+}
+/* row style: the container */
+.row{
+    display: flex;
+    align-items: center;
+}
+/* commun style for all the columns */
+.col , .col-2 , .col-3{
+    background-color: #538381;
+    margin: 10px ;
+    text-align: center;
+    padding: 20px;
+}
+/* each column specification */
+.col{
+    flex: 1;
+}
+.col-2{ 
+    flex: 2;
+}
+.col-3{
+    flex: 3;
+}
