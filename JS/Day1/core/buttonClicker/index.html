@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="#home" id="logo">Dojonary</a>
+        <input type="text" placeholder="Search" id="searchbar">
+        <button id="loginbtn" onclick="logout(this)">Login</button>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="leftside"><!-- left side -->
+                <div class="definitionbox"><!-- first definition -->
+                    <div class="word">
+                        <h2>ninja</h2>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <div class="likes" onclick="displayAlert('Message')">
+                            <p>13 likes</p>
+                        </div>
+                    </div>
+                    <div class="difinition">
+                        <p>A practitioner skilled in the <a href="#">Japenese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                    
+                </div>
+                <div class="definitionbox"> <!-- second definition -->
+                    <div class="word">
+                        <h2>ninja</h2>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <div>
+                            <button class="likes" onclick="displayAlert('Message')" >37 likes </button>
+                        </div>
+                    </div>
+                    <div class="difinition">
+                        <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rightside"><!-- right side -->
+                <h3>Dojanary is <br> defined by <b>YOU</b></h3>
+                <input id="addbtn" type="button" value="Add Definition" onclick="removing(this)">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

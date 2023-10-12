@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+/* header */
+.header{
+    display: flex;
+    background-color: #ddd;
+    padding: 10px 50px 20px 50px;
+    margin: auto 100px  ;
+    justify-content: space-between;
+    align-items: last baseline;
+    flex-wrap: wrap;
+}
+#logo{
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+}
+#searchbar{
+    width: 350px;
+}
+#loginbtn{
+    color: #ddd;
+    background-color: rgb(43, 120, 228);
+    border: 2px solid;
+    border-color: black;
+    box-shadow: 1px 1px 0px 0 rgb(7, 8, 26);
+    padding: 0 5px;
+    width: 80px;
+}
+/* main */
+.main{
+    margin: 30px 100px 0 100px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+/* left container */
+.definitionbox{
+    border: 1px solid;
+    margin: 10px;
+    margin-right: 30px;
+    display: flex;
+    width: 500px;
+    padding-top:  20px;
+    border: 2px solid;
+    border-color: black;
+}
+.word{
+    margin: 5px;
+    width: 120px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.difinition{
+    margin: 5px;
+    margin-left: 60px;
+    width: 220px;
+    align-self: center;
+    justify-self: center;
+}
+.likes{
+    margin-top: 20px;
+    padding:  0 5px;
+    background-color: gold;
+    border: 2px solid;
+    border-color: black;
+    box-shadow: 3px 3px 0px 0 rgb(7, 8, 26);
+    font-size: 15px;
+}
+/* right container */
+.rightside{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: fit-content;
+    margin: 10px 0;
+    padding: 15px 15px 0px 15px ;
+    border: 2px solid;
+    border-color: black;
+}
+.rightside b{
+    font-size: larger;
+}
+#addbtn{
+    border: 2px solid;
+    border-color: black;
+    background-color: rgb(147, 196, 125);
+    padding: 5px 30px;
+    margin: 20px auto;
+}
+
