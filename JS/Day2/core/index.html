@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+    <div class="header">
+        <h1>Network</h1>
+    </div>
+    <div class="main">
+        <div class="title"> <!-- page title -->
+            <h2>Your Feed</h2>
+        </div>
+        <div class="container"><!-- page container -->
+            <div class="profile"><!-- right side profile -->
+                <img src="image/profileimg.png" alt="profile_image">
+                <a href="#">Add an avatar</a>
+                <h3>James Doe</h3>
+            </div>
+            <div class="posts"> 
+                <div class="post"><!-- first post -->
+                    <div class="box"> <!-- box for User and likes & like button -->
+                        <div class="user-name"> <!-- user -->
+                            <p>Neil M</p>
+                        </div>
+                        <div class="likes"><!-- number of likes -->
+                            <p><span id="test1">9</span> like(s)</p>
+                        </div>
+                        <div class="likebtn"> <!-- like button -->
+                            <input type="button" value="Like" id="btn" onclick="liking1(this)">
+                        </div>
+                    </div>
+                    <div class="filler"> <!-- Post content -->
+                            <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                    </div>
+                </div>
+                <div class="post"><!-- second post -->
+                    <div class="box"> <!-- User and likes & like button -->
+                        <div class="user-name"> <!-- user -->
+                            <p>Nichole K</p>
+                        </div>
+                        <div class="likes"><!-- number of likes -->
+                            <p><span id="test2">12</span> like(s)</p>
+                        </div>
+                        <div class="likebtn"> <!-- like button -->
+                            <input type="button" value="Like" id="btn" onclick="liking2(this)">
+                        </div>
+                    </div>
+                    <div class="filler"> <!-- Post content -->
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="post"><!-- third post -->
+                    <div class="box"> <!-- User and likes & like button -->
+                        <div class="user-name"> <!-- user -->
+                            <p>Jim R</p>
+                        </div>
+                        <div class="likes"><!-- number of likes -->
+                            <p><span id="test3">9</span> like(s)</p>
+                        </div>
+                        <div class="likebtn"> <!-- like button -->
+                            <input type="button" value="Like" id="btn" onclick="liking3(this)">
+                        </div>
+                    </div>
+                    <div class="filler"> <!-- Post content -->
+                        <p>I can't stop listening to the <a href="#">new album</a>. <br>Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

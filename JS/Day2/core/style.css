@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: cursive;
+}
+.header{
+    background-color: black;
+    color: white;
+    width: 60%;
+    margin: auto 20%;
+}
+.header h1{
+    padding-left: 16px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20%;
+}
+.title{
+    text-align: center;
+    padding: 8px 0;
+}
+.title h2{
+    font-size: 1.9rem;
+}
+.profile{
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 8px;
+    align-items: center;
+    gap: 10px;
+    width: 60%;
+    height: fit-content;
+}
+.profile img{
+    width: 160px;
+}
+.profile h3{
+    font-size: 30px;
+    padding-bottom: 16px;
+}
+
+.container{
+    display: flex;
+    gap: 5%;
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+}
+.post{
+    border: 2px solid;
+    width: 90%;
+    height: 100px;
+    display: flex;
+    flex-direction: column ;
+    padding: 20px ;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-name p {
+    align-self: center;
+    font-size: 1.3rem;
+}
+.likes span{
+    color: darkgoldenrod;
+}
+
+#btn {
+    background-color: gold;
+    color: black;
+    padding: 0px 10px;
+    border: 2px solid #000;
+    box-shadow: 2px 2px #000;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.filler{
+    padding-top: 10px ;
+}
